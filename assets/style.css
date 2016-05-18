@@ -1,0 +1,63 @@
+::-moz-selection {
+    background: #D3D3D3;
+    text-shadow: none;
+}
+
+::selection {
+    background: #D3D3D3;
+    text-shadow: none;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+    overflow-y:scroll; /* scrool bar always visible */
+    overflow-x: hidden; /* horizontal scrool bar hidden */
+}
+
+body {
+  
+    font-family: 'Open Sans', sans-serif; /*choose different font*/
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+
+    background: #0d5b89; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient( #008ab4, #0c547e ); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient( #008ab4, #0c547e ); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient( #008ab4, #0c547e ); /* For Firefox 3.6 to 15 */
+    background: linear-gradient( #008ab4, #0c547e ); /* Standard syntax */
+}
+
+/* text input form */
+.textInput{
+   margin-top: 75px;
+   padding-bottom: 75px;
+   text-align: center;
+}
+
+/* submit button */
+.btn-success {
+   background-color: #fdfdf9;
+   color: #0d5b89;
+   border: 1px solid #cccccc;
+   border-radius: 2px;
+} 
+.btn-success:hover { 
+   background-color: #0d5b89;
+   border: 1px solid #fdfdf9;
+}
+
+textarea, input, input[type], .uneditable-input {   
+    border-radius: 2px;
+}
+
+#headerwrap {
+   padding-top: 6%;
+}
+
+#headerwrap h1 {
+   letter-spacing: .5px;
+   font-size: 40px;
+   color: #fdfdf9;
+   text-align: center;
+}
