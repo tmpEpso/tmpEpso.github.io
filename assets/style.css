@@ -9,6 +9,7 @@
 }
 
 html {
+    min-width: 400px;
     position: relative;
     min-height: 100%;
     overflow-y:scroll; /* scrool bar always visible */
@@ -21,12 +22,29 @@ body {
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
 
+    margin: 0 0 100px; /* bottom = footer height */
+
     background: #0d5b89; /* For browsers that do not support gradients */
     background: -webkit-linear-gradient( #008ab4, #0c547e ); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient( #008ab4, #0c547e ); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient( #008ab4, #0c547e ); /* For Firefox 3.6 to 15 */
     background: linear-gradient( #008ab4, #0c547e ); /* Standard syntax */
 }
+
+footer {
+    background-color: #8fcac4;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+}
+footer p {
+   text-align:center;
+   margin-top: 40px;
+   margin-left: 10px;
+   font-size: 1em;
+}  
 
 /* text input form */
 .textInput{
@@ -43,8 +61,9 @@ body {
    border-radius: 2px;
 } 
 .btn-success:hover { 
-   background-color: #0d5b89;
+   background-color: #8fcac4;
    border: 1px solid #fdfdf9;
+   color: #0d5b89;
 }
 
 textarea, input, input[type], .uneditable-input {   
@@ -59,5 +78,11 @@ textarea, input, input[type], .uneditable-input {
    letter-spacing: .5px;
    font-size: 40px;
    color: #fdfdf9;
+   text-align: center;
+}
+
+#headerwrap h2 {
+   font-size: 35px;
+   color: #EBEBEB;
    text-align: center;
 }
