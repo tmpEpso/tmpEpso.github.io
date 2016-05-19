@@ -1,10 +1,12 @@
 ::-moz-selection {
-    background: #D3D3D3;
+    background: #008ab4;
+    color: white;
     text-shadow: none;
 }
 
 ::selection {
-    background: #D3D3D3;
+    background: #008ab4;
+    color: white;
     text-shadow: none;
 }
 
@@ -18,7 +20,7 @@ html {
 
 body {
   
-    font-family: 'Open Sans', sans-serif; /*choose different font*/
+    font-family: 'Source Sans Pro', sans-serif; /*choose different font*/
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
 
@@ -31,8 +33,20 @@ body {
     background: linear-gradient( #008ab4, #0c547e ); /* Standard syntax */
 }
 
+/* top navbar*/
+.navbar-default {
+   background-color: #080f17; 
+   border-color: transparent;
+   border-bottom-right-radius:5em;
+   border-bottom-left-radius:5em;height: 105px;
+}
+
+.navbar-fixed-top { position: absolute!important;
+    box-shadow: 1px  5px #bebcbd;
+}
+
 footer {
-    background-color: #8fcac4;
+    background-color: #bebcbd;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -57,13 +71,13 @@ footer p {
 .btn-success {
    background-color: #fdfdf9;
    color: #0d5b89;
-   border: 1px solid #cccccc;
+   border: 1px solid #bebcbd;
    border-radius: 2px;
 } 
 .btn-success:hover { 
-   background-color: #8fcac4;
-   border: 1px solid #fdfdf9;
-   color: #0d5b89;
+   background-color: #008ab4;
+   border: 1px solid #bebcbd;
+   color:   ;
 }
 
 textarea, input, input[type], .uneditable-input {   
@@ -71,7 +85,7 @@ textarea, input, input[type], .uneditable-input {
 }
 
 #headerwrap {
-   padding-top: 6%;
+   padding-top: 15%;
 }
 
 #headerwrap h1 {
@@ -82,7 +96,8 @@ textarea, input, input[type], .uneditable-input {
 }
 
 #headerwrap h2 {
-   font-size: 35px;
+   font-size: 18px;
    color: #EBEBEB;
    text-align: center;
+   padding-top: 15px;
 }
