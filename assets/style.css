@@ -1,4 +1,4 @@
-::-moz-selection {
+   ::-moz-selection {
     background: #008ab4;
     color: white;
     text-shadow: none;
@@ -37,8 +37,9 @@ body {
 .navbar-default {
    background-color: #080f17; 
    border-color: transparent;
-   border-bottom-right-radius:5em;
-   border-bottom-left-radius:5em;height: 105px;
+   border-bottom-right-radius:2em;
+   border-bottom-left-radius:2em;
+   height: 105px;
 }
 
 .navbar-fixed-top { position: absolute!important;
