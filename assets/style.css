@@ -11,7 +11,6 @@
 }
 
 html {
-    min-width: 400px;
     position: relative;
     min-height: 100%;
     overflow-y:scroll; /* scrool bar always visible */
@@ -86,7 +85,7 @@ textarea, input, input[type], .uneditable-input {
 }
 
 #headerwrap {
-   padding-top: 15%;
+   padding-top: 150px;
 }
 
 #headerwrap h1 {
@@ -102,3 +101,43 @@ textarea, input, input[type], .uneditable-input {
    text-align: center;
    padding-top: 15px;
 }
+
+@media  (min-width: 800px) {/*width greater than 800*/
+   .row{ 
+      /*background-color: blue;*/
+      padding-left: 110px; 
+      padding-right: 110px;"
+   }
+}
+
+@media  (min-width: 1200px) {/*width greater than 1200*/
+   .row{
+      /*background-color: red;*/
+      padding-left: 0px; 
+      padding-right: 0px;"
+   }
+}
+
+ .imgSize{ /*header logo*/
+   max-width: 100%;
+   height: auto;
+   width: auto\9; /* ie8 */
+}
+
+@media  (max-width: 350px) {/*width less than 300*/
+    .imgSize{ padding-top: 10px; }    
+}
+
+@media  (max-width: 300px) {/*width less than 300*/
+   .imgSize{ padding-top: 20px; }
+   #headerwrap h1 {letter-spacing: .5px;font-size: 20px;}
+   #headerwrap h2 {font-size: 11px;}
+}
+
+@media  (max-width: 420px) {/*width less than 300*/
+    .foot{ font-size: 11px;  }    
+}
+
+
+
+
