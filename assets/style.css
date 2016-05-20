@@ -151,7 +151,7 @@ textarea, input, input[type], .uneditable-input {
 
 @media  (max-width: 300px) {/*width less than 300*/
    .imgSize{ padding-top: 20px; }
-   #headerwrap h1 {letter-spacing: .5px;font-size: 4px;}
+   #headerwrap h1 {letter-spacing: .5px;font-size: 16px;}
    #headerwrap h2 {font-size: 11px;}
    .thanks { font-size: 12px;}
 }
