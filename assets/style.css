@@ -102,23 +102,20 @@ textarea, input, input[type], .uneditable-input {
    padding-top: 15px;
 }
 
-@media  (min-width: 800px) {/*width greater than 800*/
-   .row{ 
-      /*background-color: blue;*/
-      padding-left: 110px; 
-      padding-right: 110px;
-   }
-   #headerfix{
-      padding-left: 90px; 
-      padding-right: 90px;
-   }
+.imgSize{ /*header logo*/
+   max-width: 100%;
+   height: auto;
+   width: auto\9; /* ie8 */
+}
+
+.thanks {
+   font-size: 24px;
+   text-align: center;
+   color: #fdfdf9;
+   padding-top: 15%; 
 }
 
 @media  (min-width: 1200px) {/*width greater than 1200*/
-   .row{
-      padding-left: 0px; 
-      padding-right: 0px;
-   }
    h1{ /*height fix before form*/
       padding-bottom: 70px;
    }
@@ -128,28 +125,35 @@ textarea, input, input[type], .uneditable-input {
    }
 }
 
- .imgSize{ /*header logo*/
-   max-width: 100%;
-   height: auto;
-   width: auto\9; /* ie8 */
+@media  (min-width: 800px) {/*width greater than 800*/
+   #headerfix{
+      padding-left: 90px; 
+      padding-right: 90px;
+   }
+}
+
+@media  (max-width: 450px) {/*width less than 420*/
+     .thanks { font-size: 16px;}
+}
+@media  (max-width: 420px) {/*width less than 420*/
+    .foot{ font-size: 11px;}
+     #headerwrap h1 {letter-spacing: .5px;font-size: 30px;}   
+     .thanks { font-size: 14px;}
 }
 
 @media  (max-width: 350px) {/*width less than 300*/
     .imgSize{ padding-top: 10px; }    
 }
 
-@media  (max-width: 300px) {/*width less than 300*/
-   .imgSize{ padding-top: 20px; }
-   #headerwrap h1 {letter-spacing: .5px;font-size: 20px;}
-   #headerwrap h2 {font-size: 11px;}
-}
 @media  (max-width: 325px) {/*width less than 325*/
    #headerwrap h2 {font-size: 14px;}
 }
 
-@media  (max-width: 420px) {/*width less than 420*/
-    .foot{ font-size: 11px;}
-     #headerwrap h1 {letter-spacing: .5px;font-size: 30px;}   
+@media  (max-width: 300px) {/*width less than 300*/
+   .imgSize{ padding-top: 20px; }
+   #headerwrap h1 {letter-spacing: .5px;font-size: 4px;}
+   #headerwrap h2 {font-size: 11px;}
+   .thanks { font-size: 12px;}
 }
 
 @media  (max-width: 260px) {/*width less than 260*/
@@ -159,9 +163,8 @@ textarea, input, input[type], .uneditable-input {
 @media  (max-width: 248px) {/*width less than 239*/
     .foot{ font-size: 9px;} 
     #headerwrap h2 {font-size: 10px;}
+    .thanks { font-size: 9px;}
 }
-
-
 
 
 
