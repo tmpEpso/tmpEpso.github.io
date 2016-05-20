@@ -138,7 +138,8 @@ textarea, input, input[type], .uneditable-input {
 }
 
 @media  (max-width: 420px) {/*width less than 420*/
-    .foot{ font-size: 11px;}    
+    .foot{ font-size: 11px;}
+     #headerwrap h1 {letter-spacing: .5px;font-size: 30px;}   
 }
 
 @media  (max-width: 260px) {/*width less than 260*/
