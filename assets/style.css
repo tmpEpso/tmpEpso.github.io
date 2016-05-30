@@ -166,5 +166,8 @@ textarea, input, input[type], .uneditable-input {
     .thanks { font-size: 9px;}
 }
 
+.container header {
+   width: 10px;
+}
 
 
